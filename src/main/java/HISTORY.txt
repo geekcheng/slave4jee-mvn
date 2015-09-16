@@ -1,0 +1,17 @@
+
+2015-04-23
+*, can generate a basic java bean (without constructor); 
+*, can determine the java type from configuratal type;
+*, can read mysql all tables' name 
+
+2015-04-24
+*, can read oracle all tables' name 
+*, can read information[name, comment] of all tables 
+*, can read information[type, name, comment] of columns in a table
+*, can add comment[only tablename] on a bean
+*,  
+*,  
+*,  
+*,  
+
+

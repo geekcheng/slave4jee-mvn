@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<objects srcroot="G:/_ws_eluna/_autoslave">
+	<object id="Demo" packagename="com.autoresult.bean" type="bean" comment="demo">
+		<field type="int" text="id" comment="主键" />
+		<field type="integer" text="version" comment="版本" />
+		<field type="Integer" text="age" comment="年龄" />
+		<field type="String" text="name" comment="姓名" />
+		<field type="str" text="createUser" comment="创建人员" />
+		<field type="string" text="modifyUser" comment="修改人员" />
+		<field type="Date" text="createTime" comment="创建时间" />
+		<field type="date" text="time1" comment="时间1" />
+		<field type="datetime" text="time2" comment="时间2" />
+		<field type="timestamp" text="time3" comment="时间3" />
+		<field type="Boolean" text="married" comment="婚否？" />
+		<field type="boolean" text="loved" comment="恋爱否？" />
+		<field type="bool" text="visit" comment="旅游否？" />
+		<field type="double" text="salary" comment="工资" />
+		<field type="float" text="height" comment="身高" />
+	</object>
+	
+	<object id="Comment" packagename="com.autoresult.bean" type="bean">
+		<field type="int" text="id" comment="主键" />
+		<field type="int" text="prodId" comment="产品id" />
+		<field type="int" text="custId" comment="客户id" />
+		<field type="int" text="satisfNum" comment="满意度" />
+		<field type="String" text="title" comment="评论主题" />
+		<field type="string" text="content" comment="评论内容" />
+		<field type="string" text="commTime" comment="评论时间" />
+		<field type="int" text="verifyId" comment="审核人id" />
+		<field type="string" text="verifyTime" comment="审核时间" />
+		<field type="integer" text="orderNum" comment="排序" />
+		<field type="integer" text="status" comment="状态[0-全部；1-待审核；2-已通过；3-未通过；4-已删除]" />
+		<field type="integer" text="realflag" comment="是否是真实评论" />
+		<field type="integer" text="baofei" comment="保费" />		 
+		<field type="string" text="name" comment="产品名称" />
+		<field type="double" text="baofei" comment="产品名称" />
+		<field type="str" text="createUser" comment="创建人员" />
+		<field type="string" text="createTime" comment="创建时间" />
+		<field type="string" text="modifyUser" comment="修改人员" />
+		<field type="Date" text="modifyTime" comment="修改时间" />
+		<field type="integer" text="version" comment="版本" />
+	</object>
+
+
+</objects>
